@@ -1,0 +1,157 @@
+body{
+    padding: 0px;
+    margin: 0px;  
+}
+#contenar{
+    display: flex;
+    width: 100%;
+}
+#left{
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    height: 735px;
+}
+#left > h1{
+    font-size: 36;
+    font-weight: bold;
+    color: #575A85;
+ padding-left: 50px;
+}
+#left > p{
+    padding-left: 50px;
+    font-size: 24;
+    font-weight: 400;
+    width: 350px;
+   }
+#imgdiv{
+    margin-top: 100px;
+text-align: center;
+}
+#right{
+    width: 50%;
+    text-align: center;
+    background-color: #575A85;
+    height: 435px;
+    padding-top: 300px;
+}
+#right h1{
+color: #B8BCCC;
+font-size: 36;
+font-weight: 700;
+}
+#ipAddress{
+    color: white;
+    font-size: 36;
+    font-weight: 400; 
+}
+button{
+    background-color: transparent;
+    border: 2px solid #B8BCCC;
+    border-radius: 10px;
+    width: 345px;
+    height: 67px;
+    font-size: 28px;
+    font-weight:400 ;
+    color: #B8BCCC;
+    cursor: pointer;
+}
+#newContainer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 5000px;
+}
+#newPageip{
+font-size: 34px;
+font-weight: 700;
+color: #B8BCCC;
+padding-left: 50px;
+padding-top: 60px;
+}
+#newPageip > span{
+color: white;
+font-size: 34px;
+font-weight: 700;
+}
+#Show{
+    display: flex;
+    gap: 100px;
+    padding-left: 50px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #B8BCCC;
+    margin-top: 50px;
+}
+#Show >div{
+    display: flex;
+    flex-direction: column;
+}
+#location{
+    width: 100%;
+    background-color: #575A85;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#location > h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #B8BCCC;
+    padding-top: 50px;
+}
+#moreInfo >h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #B8BCCC;
+}
+#moreInfo >h4{
+padding-left: 50px;
+font-size: 34px;
+    font-weight: 700;
+    color: #B8BCCC;
+}
+#moreInfo >h4 >span{
+    font-weight: 400;
+}
+#postOff{
+    text-align: center;
+}
+#postOff > h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #B8BCCC;
+    margin-top: 50px;
+}
+input{
+    width: 93%;
+    background-color: transparent;
+    color: #B8BCCC ;
+    font-size: 34px;
+    height: 85px;
+    border-radius: 5px;
+    border: 3px solid #575A85;
+}
+
+#postData{
+    padding-top: 50px;
+    margin: auto; 
+    width: 93%;
+    display: grid;
+    font-size: 34px;
+    font-weight: 700;
+    color: #B8BCCC;
+    line-height: 0%;
+    gap: 2%;
+    grid-template-columns:49% 49% ;
+}
+#postData > div{
+    background-color: #575A85;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 50px;
+}
